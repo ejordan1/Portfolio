@@ -9,18 +9,16 @@ p{
   text-align: center;
 }
 
-body{
 
-
-}
-
-#proj1{
-
+.columnmain{
+  background-color: lightgrey;
+  height: 100%;
 }
 
 .projectBlock{
 
   background-image: url("../img/bluerect.png");
+  float: left;
 }
 
 @media screen and (min-width:  600px) {
@@ -33,12 +31,11 @@ body{
 
   .columnmain{
     margin-left: 150px;
-    background-color: green;
+
   }
   .projectBlock{
     width: 300px;
     height: 200px;
-    float: left;
     padding: 10px;
     margin: 20px;
     background-size: 300px 200px;
@@ -52,25 +49,24 @@ body{
 
 @media screen and (max-width: 600px) {
   .columnnav{
-    height: 50px;
+    height: 30px;
     background-color: blue;
   }
 
   .columnmain{
     background-color: green;
   }
-  #navbar{
+  #mynavbar{
     text-align: center;
   }
 
-  #navbar li{
+  #mynavbar li{
     display: inline-block;
   }
 
   .projectBlock{
     width: 150px;
     height: 100px;
-    float: left;
     padding: 10px;
     margin: 20px;
     background-size: 150px 100px;
