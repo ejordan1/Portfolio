@@ -2,6 +2,14 @@ p{
   color: blue;
 }
 
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
 .projectName{
   text-align: center;
 }
@@ -9,24 +17,65 @@ p{
   text-align: center;
 }
 
+/*THIS IS REALLY BADLY DONE: COULDN'T FIGURE OUT HOW TO GET EACH BOX ITS OWN IMAGE AND MAKE IT SHAPE TO THE BOX SIZE WITHOUT REDUDANCY. THE BACKGROUND THING DIDN'T INHERENT*/
+
+.proj1{
+
+  background-image: url("../img/panda.png");
+  background-size: cover;
+}
+
+.proj2{
+  background-image: url("../img/jeticon.jpg");
+  background-size: cover;
+}
+
+.proj3{
+  background-image: url("../img/EHeadshot.jpg");
+  background-size: cover;
+}
 
 .columnmain{
-  background-color: lightgrey;
-  height: 100%;
+  background-color: #AFC3A7;
+  height: 100vh;
+}
+
+.emersonPhoto{
+  width: 33%;
+  float: left;
+  margin: 20px;
+}
+
+/*about*/
+.factsbox{
+  padding: 40px;
+  margin-right: 40px;
+  margin-left: 60px;
+  margin-bottom: 60px;
 }
 
 .projectBlock{
-
-  background-image: url("../img/bluerect.png");
+background-size: cover;
   float: left;
+  background-position: center;
+  background-color: lightgrey;
 }
 
+.columnnav{
+    background-color: #2B496B;
+}
+
+/*THIS IS WHERE THE WHITE BAR ERROR IS*/
 @media screen and (min-width:  600px) {
   .columnnav{
     width: 150px;
     height: 100%;
-    background-color: blue;
     position: fixed;
+    padding-top: 50px;
+  }
+
+  .navItem{
+    padding: 2px;
   }
 
   .columnmain{
@@ -36,26 +85,42 @@ p{
   .projectBlock{
     width: 300px;
     height: 200px;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
-    background-size: 300px 200px;
 
   }
   .projectName{
     font-size: 40;
     text-align: center;
   }
+
+  /*ABOUT */
+  .interestsTitle{
+
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    border-bottom: 2px solid grey;
+    margin: 50px;
+  }
+
+  .emersonPhoto{
+    width: 33%;
+    float: left;
+    margin: 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .columnnav{
     height: 30px;
-    background-color: blue;
+
   }
 
-  .columnmain{
-    background-color: green;
-  }
+
   #mynavbar{
     text-align: center;
   }
@@ -77,5 +142,18 @@ p{
   }
   .projectDescription{
     visibility: hidden;
+  }
+
+  /*ABOUT */
+  .interestsTitle{
+    height: 80px;
+    text-align: center;
+    font-size: 20;
+  }
+
+  .emersonPhoto{
+    width: 200px;
+    float: left;
+    margin: 20px;
   }
 }
