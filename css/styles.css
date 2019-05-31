@@ -2,9 +2,31 @@ p{
   color: blue;
 }
 
-@media screen and (min-width:  800px) {
+.projectName{
+  text-align: center;
+}
+.projectDescription{
+  text-align: center;
+}
+
+body{
+
+
+}
+
+#proj1{
+
+}
+
+.projectBlock{
+
+  background-image: url("../img/bluerect.png");
+}
+
+@media screen and (min-width:  600px) {
   .columnnav{
     width: 150px;
+    height: 100%;
     background-color: blue;
     position: fixed;
   }
@@ -12,13 +34,23 @@ p{
   .columnmain{
     margin-left: 150px;
     background-color: green;
-    float: left;
   }
+  .projectBlock{
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    background-size: 300px 200px;
 
+  }
+  .projectName{
+    font-size: 40;
+    text-align: center;
+  }
 }
 
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .columnnav{
     height: 50px;
     background-color: blue;
@@ -26,12 +58,28 @@ p{
 
   .columnmain{
     background-color: green;
-    float: left;
+  }
+  #navbar{
+    text-align: center;
   }
 
-  #sidebar li{
-    text-align: center;
+  #navbar li{
     display: inline-block;
+  }
+
+  .projectBlock{
+    width: 150px;
+    height: 100px;
     float: left;
+    padding: 10px;
+    margin: 20px;
+    background-size: 150px 100px;
+
+  }
+  .projectName{
+    font-size: 12;
+  }
+  .projectDescription{
+    visibility: hidden;
   }
 }
