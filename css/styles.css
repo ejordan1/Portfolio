@@ -1,0 +1,37 @@
+p{
+  color: blue;
+}
+
+@media screen and (min-width:  800px) {
+  .columnnav{
+    width: 150px;
+    background-color: blue;
+    position: fixed;
+  }
+
+  .columnmain{
+    margin-left: 150px;
+    background-color: green;
+    float: left;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .columnnav{
+    height: 50px;
+    background-color: blue;
+  }
+
+  .columnmain{
+    background-color: green;
+    float: left;
+  }
+
+  #sidebar li{
+    text-align: center;
+    display: inline-block;
+    float: left;
+  }
+}
