@@ -14,24 +14,28 @@ h2{
   text-align: center;
 }
 .projectDescription{
-  text-align: center;
+  text-align: left;
 }
 
 /*THIS IS REALLY BADLY DONE: COULDN'T FIGURE OUT HOW TO GET EACH BOX ITS OWN IMAGE AND MAKE IT SHAPE TO THE BOX SIZE WITHOUT REDUDANCY. THE BACKGROUND THING DIDN'T INHERENT*/
 
 .proj1{
-
-  background-image: url("../img/panda.png");
+  background-image: url("../img/wiki.png");
   background-size: cover;
 }
 
 .proj2{
-  background-image: url("../img/jeticon.jpg");
+  background-image: url("../img/vacation.png");
   background-size: cover;
 }
 
 .proj3{
-  background-image: url("../img/EHeadshot.jpg");
+  background-image: url("../img/shelter.png");
+  background-size: cover;
+}
+
+.proj4{
+  background-image: url("../img/band.png");
   background-size: cover;
 }
 
@@ -54,18 +58,42 @@ h2{
   margin-bottom: 60px;
 }
 
-.projectBlock{
+.projectBlock {
 background-size: cover;
   float: left;
   background-position: center;
   background-color: lightgrey;
+  filter: grayscale(40%);
+
+}
+
+.proj1:hover {
+  filter: grayscale(0%);
+}
+
+.proj2:hover {
+filter: grayscale(0%);
+}
+
+.proj3:hover {
+filter: grayscale(0%);
+}
+
+.proj4:hover {
+filter: grayscale(0%);
 }
 
 .columnnav{
     background-color: #2B496B;
 }
 
-/*THIS IS WHERE THE WHITE BAR ERROR IS*/
+.introPara{
+  width: 50%;
+  text-align: left;
+  align-self: center;
+  color: black;
+}
+
 @media screen and (min-width:  600px) {
   .columnnav{
     width: 150px;
@@ -84,14 +112,14 @@ background-size: cover;
   }
   .projectBlock{
     width: 300px;
-    height: 200px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
 
   }
   .projectName{
-    font-size: 40;
-    text-align: center;
+    font-size: 22px;
+    padding-bottom: 10px;
   }
 
   /*ABOUT */
@@ -136,9 +164,12 @@ background-size: cover;
     margin: 20px;
     background-size: 150px 100px;
 
+
   }
   .projectName{
     font-size: 12;
+    text-align: center;
+
   }
   .projectDescription{
     visibility: hidden;
