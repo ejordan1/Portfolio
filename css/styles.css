@@ -37,8 +37,11 @@ h2{
   background-size: cover;
 }
 
-.columnmain{
+
+
+ .columnmain{
   /* background-color: #AFC3A7; */
+
   height: 100vh;
 }
 
@@ -100,6 +103,11 @@ filter: grayscale(0%);
   width: 50%;
   text-align: left;
   color: darkblue;
+}
+
+.p4background{
+  background-image: url("../img/od.png");
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width:  600px) {
