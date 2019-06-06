@@ -39,10 +39,10 @@ h2{
   background-size: cover;
 }
 
-.columnmain{
+/* .columnmain{
   background-color: #AFC3A7;
   height: 100vh;
-}
+} */
 
 .emersonPhoto{
   width: 33%;
@@ -83,15 +83,20 @@ filter: grayscale(0%);
 filter: grayscale(0%);
 }
 
-.columnnav{
+/* .columnnav{
     background-color: #2B496B;
-}
+} */
 
 .introPara{
   width: 50%;
   text-align: left;
   align-self: center;
   color: black;
+}
+
+.p4background{
+  background-image: url("../img/od.png");
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width:  600px) {
