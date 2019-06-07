@@ -1,27 +1,32 @@
-# Portfolio
+# _Portfolio_
 
-#### A portfolio website  5-31-19
-#### By Emerson Jordan
+#### A portfolio website including info about myself and software projects, Friday, June 7 _
 
-## Description A portfolio website that includes projects I have developed and an about me page.
+#### By _**Emerson Jordan**_
 
+## Description
 
+_This is a portfolio website including a main section with links to projects I have developed in my coding bootcamp, a bio section including information about my interests and background, and video game projects I have developed independently._
 
 ## Setup/Installation Requirements
 
-* _Clone from git
-* _open html file
+* _in the portfolio github page clone or download and click download zip file_
+* _open the file and click the "index.html" browser page_
 
 ## Known Bugs
 
-_Not really a bug, more of a design issue. It is quite apparent. I had an idea for a cool box background image setup with text on the front, but there is a clash of readability. If you have any ideas or suggestions or concerns I encourage you to message me at emerz210@gmail.com_
+_There are no known bugs _
+
+## Support and contact details
+
+_If you find any issue or need help with installation please contact me at emerz210@gmail.com_
 
 ## Technologies Used
 
-_{Uses Html, CSS._
+_html, css, atom, browser_
 
 ### License
 
-*{}*
+*All Rights Reserved*
 
-Copyright (c) 2016 **_{Emerson Jordan}_**
+Copyright (c) 2016 **_{List of contributors or company name}_**
