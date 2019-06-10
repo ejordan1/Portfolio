@@ -29,5 +29,7 @@ _html, css, atom, browser_
 
 *All Rights Reserved*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Emerson_**
+
+
 [Link to gh-pages on Github](https://ejordan1.github.io/Portfolio/)
